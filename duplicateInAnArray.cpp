@@ -1,3 +1,5 @@
+// Solution is in space complexity = O(1) and time complexity = O(N) 
+
 int Solution::repeatedNumber(const vector<int> &A) {
     int maxi=INT_MIN;
     for(int i=0;i<A.size();i++){
